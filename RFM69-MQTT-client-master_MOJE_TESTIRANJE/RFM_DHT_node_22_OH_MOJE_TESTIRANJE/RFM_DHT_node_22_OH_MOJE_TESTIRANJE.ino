@@ -74,7 +74,7 @@ SFE_TSL2561 light; // Kreiramo objekat
 #define NODEID 2 					// unique node ID within the closed network
 #define GATEWAYID 1					// node ID of the Gateway is always 1
 #define NETWORKID 100					// network ID of the network
-#define ENCRYPTKEY "xxxxxxxxxxxxxxxx" 			// 16-char encryption key; same as on Gateway!
+#define ENCRYPTKEY "RFM69gateway1234" 			// 16-char encryption key; same as on Gateway!
 //#define DEBUG						// uncomment for debugging
 #define VERSION "DHT V2.2_OH"				// this value can be queried as device 3
 
