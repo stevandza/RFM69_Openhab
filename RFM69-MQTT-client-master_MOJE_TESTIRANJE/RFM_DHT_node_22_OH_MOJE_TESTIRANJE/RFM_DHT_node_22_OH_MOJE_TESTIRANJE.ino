@@ -96,8 +96,8 @@ SFE_TSL2561 light; // Kreiramo objekat
 #define ACT3 6            // Actuator pin (LED or relay)
 #define ACT4 5            // Actuator pin (LED or relay)
 
-#define BTN  8						// Button pin
-#define BTN1 8          // Button pin 1
+#define BTN  8		  // Button pin
+#define BTN1 A3           // Button pin 1
 
 
 #define SERIAL_BAUD 115200
