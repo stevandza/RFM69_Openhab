@@ -82,11 +82,11 @@ byte ip[] = { 192, 168, 1 , 78 };			// Gateway address (if DHCP fails)
 #define NETWORKID 100				// closed radio network ID
 
 //Match frequency to the hardware version of the radio (uncomment one):
-//#define FREQUENCY RF69_433MHZ
-#define FREQUENCY RF69_868MHZ
+#define FREQUENCY RF69_433MHZ
+//#define FREQUENCY RF69_868MHZ
 //#define FREQUENCY RF69_915MHZ
 
-#define ENCRYPTKEY "xxxxxxxxxxxxxxxx" 		// shared 16-char encryption key is equal on Gateway and nodes
+#define ENCRYPTKEY "RFM69gateway1234" 		// shared 16-char encryption key is equal on Gateway and nodes
 #define IS_RFM69HW 				// uncomment only for RFM69HW! Leave out if you have RFM69W!
 #define ACK_TIME 50 				// max # of ms to wait for an ack
 
